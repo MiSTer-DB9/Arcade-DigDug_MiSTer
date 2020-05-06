@@ -14,3 +14,5 @@ set_global_assignment -name VERILOG_FILE src/cpu/tv80_mcode.v
 set_global_assignment -name VERILOG_FILE src/cpu/tv80_core.v
 set_global_assignment -name VERILOG_FILE src/cpu/tv80_alu.v
 set_global_assignment -name SYSTEMVERILOG_FILE "Arcade-DigDug.sv"
+set_global_assignment -name VERILOG_FILE src/joydb9md.v
+set_global_assignment -name VERILOG_FILE src/joydb15.v
